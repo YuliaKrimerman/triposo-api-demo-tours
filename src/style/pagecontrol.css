@@ -1,0 +1,57 @@
+.page-control {
+  margin-top: 64px;
+}
+
+.page-control .page-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-control a {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #292a2e;
+  padding-top: 10px;
+}
+.page-control a svg {
+  fill: rgba(255, 255, 255, 0.3);
+}
+
+.page-control a.disabled {
+  opacity: 0.3;
+}
+
+.page-control a:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.page-control a:hover svg {
+  fill: rgba(255, 255, 255, 0.7);
+}
+
+.page-control a.prev {
+}
+.page-control a.next {
+}
+.page-control span {
+  display: block;
+  width: 44px;
+  margin: 0 8px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-size: 20px;
+  color: #333;
+  padding-top: 8px;
+}
+
+.page-control .total {
+  text-align: center;
+  color: #bbb;
+  opacity: 0.6;
+  font-size: 11px;
+  padding-top: 8px;
+}
